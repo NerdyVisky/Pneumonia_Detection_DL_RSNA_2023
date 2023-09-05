@@ -14,16 +14,16 @@
 > The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
 Chest X-ray images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. All chest X-ray imaging was performed as part of patients’ routine clinical care. For the analysis of chest x-ray images, all chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by two expert physicians before being cleared for training the AI system. In order to account for any grading errors, the evaluation set was also checked by a third expert.
 
-<p align="center"><img height="350" width="700" src="Assests/pneumonia_train.png"  ></p>
+<p align="center"><img height="350" width="700" src="imgs/pneumonia_train.png"  ></p>
 
 ## Models used :
 **Presenting comparitive analysis of different models on the provided dataset**
 
-<p align="center"><img height="350" width="700" src="Assests/comparison.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/comparison.png"></p>
 
 - ### Vanilla Convolutional Neural Network
 
-<p align="center"><img height="350" width="700" src="Assests/cnn.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/cnn.png"></p>
 
 ```
 624/624 [==============================] - 11s 18ms/step
@@ -31,11 +31,11 @@ Loss of the model is -  0.30433156475042683
 624/624 [==============================] - 10s 15ms/step
 Accuracy of the model is -  91.98718070983887 %
 ```
-<p align="center"><img height="350" width="700" src="Assests/model_accuracy.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/model_accuracy.png"></p>
 
 - ### Modified Convolutional Neural Network :
 
-<p align="center"><img height="350" width="700" src="Assests/accuracy_cnn_2.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/accuracy_cnn_2.png"></p>
 
 ```
 624/624 [==============================] - 30s 49ms/step
@@ -46,9 +46,9 @@ Train Accuracy: 66.33%
 
 - ### DenseNet :
 
-<p align="center"><img height="350" width="700" src="Assests/densenet.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/densenet.png"></p>
 
-<p align="center"><img height="350" width="700" src="Assests/densenetperf.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/densenetperf.png"></p>
 
 ```
 624/624 [==============================] - 132s 211ms/step
@@ -58,9 +58,9 @@ Train Accuracy: 86.22%
 ```
 - ### VGG16 :
 
-<p align="center"><img height="350" width="700" src="Assests/vgg16.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/vgg16.png"></p>
 
-<p align="center"><img height="350" width="700" src="Assests/vgg16_perf.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/vgg16_perf.png"></p>
 
 ```
 624/624 [==============================] - 226s 363ms/step
@@ -72,7 +72,7 @@ Train Accuracy: 82.63%
 
 - ### ResNet :
 
-<p align="center"><img height="350" width="700" src="Assests/resnet.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/resnet.png"></p>
 
 ```
 624/624 [==============================] - 101s 162ms/step
@@ -82,7 +82,7 @@ Train Accuracy: 88.92%
 ```
 
 - ### InceptionNet :
-<p align="center"><img height="350" width="700" src="Assests/inceptionnet.png"></p>
+<p align="center"><img height="350" width="700" src="imgs/inceptionnet.png"></p>
 
 ```
 624/624 [==============================] - 41s 66ms/step
